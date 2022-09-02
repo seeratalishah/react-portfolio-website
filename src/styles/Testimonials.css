@@ -1,18 +1,32 @@
 .testimonials-container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 2rem; */
+
+    padding: 0 15rem;
 }
+
+.carousel .slide{
+    background: var(--color-bg-variant);
+    border-radius: 0.5rem;
+}
+
+
 
 @media screen and (max-width:1024px) {
    .testimonials-container{
-    grid-template-columns: 1fr 1fr;
+    padding: 0 10rem;
    }
 }
 
+@media screen and (max-width:800px) {
+    .testimonials-container{
+     padding: 0 4rem;
+    }
+ }
+
 @media screen and (max-width:600px) {
     .testimonials-container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-       }
+        padding: 0 0;
+       } 
 }

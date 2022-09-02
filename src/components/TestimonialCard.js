@@ -7,7 +7,7 @@ function TestimonialCard(props) {
         <img src={props.imgUrl} alt="" />
       </div>
       <h3 className="client-name">{props.clientName}</h3>
-      <small className="client-review">{props.clientReview}</small>
+      <p className="client-review">{props.clientReview}</p>
     </article>
   );
 }

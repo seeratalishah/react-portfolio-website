@@ -25,4 +25,19 @@
     color: var(--color-light);
     font-weight: 300;
     margin: 0.8rem auto 0;
+    line-height: 1.5;
+    margin-bottom: 2rem;
 }
+
+@media screen and (max-width:1024px) {
+    .testimonial-card .client-review{
+        margin-bottom: 0.5rem;
+    }
+ }
+ 
+ @media screen and (max-width:600px) {
+    .testimonial-card .client-review{
+        margin-bottom: 0.2rem;
+    }
+     
+ }
