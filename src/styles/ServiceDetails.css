@@ -1,0 +1,14 @@
+.service-detail {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.service-detail i {
+  color: var(--color-primary);
+  margin-top: 5px;
+}
+
+.service-detail p{
+    font-size: 0.9rem;
+}

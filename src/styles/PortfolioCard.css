@@ -1,0 +1,27 @@
+.portfolio-card{
+    background: var(--color-bg-variant);
+    border-radius: 2rem;
+    padding: 1.2rem;
+    transform: var(--transition);
+    border: 1px solid transparent;
+}
+
+.portfolio-card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.card-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio-card h3{
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio-card-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}

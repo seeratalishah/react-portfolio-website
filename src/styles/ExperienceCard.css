@@ -1,0 +1,11 @@
+.experience-card{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+
+.experience-card i{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
